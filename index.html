@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="images/whatsapp.ico">
+
+    <title>WhatsApp Web</title>
+
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+    <link href="css/index.css" rel="stylesheet">
+
+  </head>
+
+  <body >
+    
+    <section>
+        <!-- Large Devices -->
+      <div class="container-fluid border d-none d-sm-none d-md-none d-lg-block" style="background-color: #41be97;height: 90vh"> <!--Container -->
+        <div class="row"> <!--row -->
+
+          <div class="col-sm-4 card top-card"> <!--column for left side view  -->
+            
+            <div class="row border header"> <!--header for left side view -->
+              
+              <div class="col-sm-9" id="avatar">
+                <a href="profile.html" data-toggle="tooltip" title="Profile">
+                  <img src="images/profile.jpg" alt="User" class="imgAvatar" >
+                </a>
+              </div>
+
+
+                <div class="col-sm-1">
+                  <a href="#" data-toggle="tooltip" title="Status">
+                    <i class="fas fa-circle-notch  icons"></i>
+                  </a>
+                </div>
+
+
+              <div class="col-sm-1">
+                <a href="#" data-toggle="tooltip" title="New Chat">
+                  <i class="far fa-comments icons"></i>
+                </a>
+              </div>
+
+              <div class="col-sm-1">
+                
+                  <div class="dropdown">
+                    
+                      <a href="#" id="dropdownThreeDotsSingleView" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Menu">
+                        <i class="fas fa-ellipsis-v  icons"></i>
+                      </a>
+
+
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownThreeDotsSingleView">
+                        <a class="dropdown-item" href="#">New Group</a>
+                        <a class="dropdown-item" href="profilepic_view.html">Profile</a>
+                        <a class="dropdown-item" href="#">Archived</a>
+                        <a class="dropdown-item" href="#">Starred</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+
+                      </div>
+                  </div>
+                
+              </div>
+            </div> <!--end of header -->
+
+            
+            <div class="row border"><!--row for left side textbox --> 
+              <div class="col-sm-12">
+                <form>
+                  <div class="input-group">
+                    <input type="text" class="form-control" name="searchText" placeholder="Search or start new chat">
+                  </div>
+                </form>
+              </div> 
+            </div> <!--end of row for left side textbox -->
+          
+            <div id="leftside">  
+                <a href="singlemsg.html">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/shashank.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p>Shashank <br>
+                            <span class="text-muted subtext" > India aaraha hai tera bhai </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 12:41</span>
+                            <br>
+                            <span class="circle-text"> &nbsp;1&nbsp;</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="groupmsg.html">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/group1.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> School Friends <br>
+                            <span class="text-muted subtext"> Rakesh : Saturday?</span>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext"> 14:20</span>
+                            <br>
+                            <span class="circle-text"> &nbsp;3&nbsp; </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                 <a href="#" >
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/vinay.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Vinay<br>
+                            <span class="text-muted subtext"> <i class="fas fa-microphone icons"></i> Audio Message </span>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext"> 11:50</span>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/akshay.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Happy Birthday Akshay<br>
+                            <span class="text-muted subtext"> VJ Avinash : <i class="fas fa-camera icons"></i> Photo</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="timer text-muted subtext" > 15:19</span>
+                            <br>
+                            <i class="fas fa-volume-off icons"></i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                
+                <!--Normal chats-->
+                
+    <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/rakesh.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Rakesh <br>
+                            <span class="text-muted subtext" > Phone Utha re </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 11:34</span>
+                            <br>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/harry.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p>Meh lee <br>
+                            <span class="text-muted subtext" > Ekkada unnav ra </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 13:22</span>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a><a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/unknown.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Prakash <br>
+                            <span class="text-muted subtext" ><span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span> ok </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 19:53</span>
+                            <br>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/ganesh.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Ganesh <br>
+                            <span class="text-muted subtext" > Are you coming????</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 19:12</span>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a><a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/chandu.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Chandu  <br>
+                            <span class="text-muted subtext" > Lol </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 20:20</span>
+                            <br>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/praveen.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Praveen <br>
+                            <span class="text-muted subtext" > Sare ra </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 20:21</span>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/cheeku.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Cheeku <br>
+                            <span class="text-muted subtext" > Forward This message to 11 Peop.... </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 21:01</span>
+                            <br>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+                
+                <a href="#">
+                  <div class="row border">
+                    <div class="col-sm-2">
+                      <img src="images/subhendu.jpg" alt="User" class="imgAvatar">
+                    </div>
+
+
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> Subhendu <br>
+                            <span class="text-muted subtext" > Kaisa Chalra </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p> 
+                            <span class="text-muted subtext" > 21:05</span>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+            </div> 
+          
+          </div> 
+
+          <div class="col-sm-8 card top-card"> 
+            <div class="row border">
+              <div class="col-sm-12">
+                <img src="images/whatsapp_image.png" alt="backgroundImage" style="width: 100%">
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>  
+    </section><!-- End  of Large Devices -->
+    
+
+
+    
+    <section><!--  Mobile Devices -->
+      <div class="container-fluid d-block d-sm-block d-md-block d-lg-none d-xl-none ">
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top row" style="background-color: #41be97;">
+          
+          <a class="navbar-brand col-7" href="#" >WhatsApp</a>
+
+          <div class="nav-item col-1">
+            <a href="profile.html" data-toggle="tooltip" title="Profile">
+              <i class="fas fa-user icons"></i>
+            </a>
+          </div> 
+          
+          <div class="nav-item col-1">
+            <a href="#" data-toggle="tooltip" title="Search">
+              <i class="fa fa-search icons" aria-hidden="true"></i>
+            </a>              
+          </div>
+
+          <div class="nav-item col-1">
+            <a href="#" data-toggle="tooltip" title="Menu">
+              <i class="fas fa-ellipsis-v icons"></i>
+            </a>
+          </div> 
+
+
+        </nav> 
+
+
+        <div class="row">
+          <div class="col-12" >
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs row" role="tablist">
+
+              <li class="nav-item col-3">
+                <a class="nav-link" data-toggle="tab" href="#camera" ><img src="images/photo-camera.svg" alt="User" style="height: 20px;width: 20px"></a>
+              </li>
+
+              <li class="nav-item col-3">
+                <a class="nav-link active" data-toggle="tab" href="#chats">Chats</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link " data-toggle="tab" href="#status">Status</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link" data-toggle="tab" href="#calls">Calls</a>
+              </li>
+            </ul>
+
+            
+            <div class="tab-content">
+              
+              <div id="camera" class="container tab-pane fade"><br>
+                <h3>Camera</h3>
+                <p>Hold for video , tap for photo</p>
+              </div>
+
+              <div id="chats" class="container tab-pane active"><br>
+                  <a href="singlemsg.html">
+                    <div class="row border">
+            
+                      <div class="col-2">
+                        <img src="images/shashank.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">                          
+                        <p> Shashank <br>
+                          <span class="text-muted subtext"> India aaraha hai tera bhai</span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 12:41</span>
+                          <br>
+                          <span class="circle-text"> &nbsp;1&nbsp;</span>
+                        </p>
+                      </div>
+
+                    </div>
+                  </a>
+
+                  <a href="groupmsg.html">
+                    <div class="row border">
+                      
+                      <div class="col-2">
+                        <img src="images/group1.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+
+                      <div class="col-8">
+                        <p> School Friends <br>
+                          <span class="text-muted subtext"> Rakesh : Saturday?</span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 14:20</span>
+                          <br>
+                          <span class="circle-text"> &nbsp;3&nbsp;</span>
+                          </p>
+                      </div>
+
+                    </div>
+                  </a>
+                  
+                  <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/vinay.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Vinay<br>
+                          <span class="text-muted subtext"> <i class="fas fa-microphone icons"></i> Audio Message </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 11:50</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/akshay.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Happy Birthday Akshay<br>
+                          <span class="text-muted subtext"> VJ Avinash : <i class="fas fa-camera icons"></i> Photo</span>
+                        </p>                        
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 15:19</span>
+                          <br>
+                          <i class="fas fa-volume-off icons"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <!--Normal Chats-->
+                  <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/rakesh.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Rakesh<br>
+                          <span class="text-muted subtext">  Phone Utha re </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 11:34</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                     <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/harry.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Meh lee<br>
+                          <span class="text-muted subtext">  Ekkada unnav ra </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 13:22</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/unknown.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Prakash<br>
+                          <span class="text-muted subtext"> <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                   ok </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 19:33</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/ganesh.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Ganesh<br>
+                          <span class="text-muted subtext">  Are you coming???? </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 19:12</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/chandu.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Chandu<br>
+                          <span class="text-muted subtext">  Lol </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 20:20</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/praveen.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Praveen<br>
+                          <span class="text-muted subtext">  Sare ra </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 20:21</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/cheeku.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Cheeku<br>
+                          <span class="text-muted subtext">  Forward This message to 11 Peopl.... </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 21:01</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>   
+              <a href="#">
+                    <div class="row border">
+                      <div class="col-2">
+                        <img src="images/subhendu.jpg" alt="User" class="imgAvatar">
+                      </div>
+
+                      <div class="col-8">
+                        <p> Subhendu<br>
+                          <span class="text-muted subtext">  Kaisa Chalra </span>
+                        </p>
+                      </div>
+
+                      <div class="col-2">
+                        <p> 
+                          <span class="text-muted subtext"> 21:05</span>
+                          <br>
+                         </p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  
+                  
+                  
+                  
+              </div>
+
+              <div id="status" class="container tab-pane fade"><br>
+                <h3>Status</h3>
+                <p>Status will be displayed here.</p>
+              </div>
+              <div id="calls" class="container tab-pane fade"><br>
+                <h3>Calls</h3>
+                <p>Calls list will be displayed here.</p>
+              </div>
+            </div>
+          </div>  
+        </div>    
+      </div> 
+    </section> <!-- End  of Mobile Devices -->
+
+    
+    <!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
